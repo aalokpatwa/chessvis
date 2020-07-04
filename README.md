@@ -44,7 +44,7 @@ I run
 $ python3 main.py --pgnfile=pgn.txt --desired_fps=5
 ```
 
-Which creates individual frames in the frames/ directory that look like this:
+Which creates individual frames in the frames/ directory that look like this, where the color of a square represents the degree to which a certain side controls it:
 
 ![Image of Frame](frames/frame10.png)
 
