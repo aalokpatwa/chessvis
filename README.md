@@ -9,12 +9,13 @@ This led me to ask whether there was a way to visualize each player's control of
 Additionally, can the winner of a chess match be predicted by the number of squares they control over the course of the middlegame?
 
 ### Requirements
-numpy
-pandas
-seaborn
-matplotlib
-cv2
-python-chess
+numpy \n
+pandas \n
+seaborn \n
+matplotlib \n
+cv2 \n
+python-chess \n
 
 ### Usage
 main.py is the script that creates heatmaps to visualize control at every move of the game, concatenate those frames into a video, and produce plots of control over the course of the game.
+
