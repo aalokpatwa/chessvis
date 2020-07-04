@@ -22,10 +22,10 @@ main.py is the script that creates heatmaps to visualize control at every move o
 ```unix
 $ python3 main.py pgnfile frame_outpath plot_outpath video_outpath desired_fps
 ```
-pgnfile: default is pgn.txt
-frame_outpath: default is frames/
-plot_outpath: default is plots/
-video_outpath: default is videos/
-desired_fps: default is 15
+pgnfile: default is pgn.txt  
+frame_outpath: default is frames/  
+plot_outpath: default is plots/  
+video_outpath: default is videos/  
+desired_fps: default is 15  
 
 
