@@ -46,15 +46,13 @@ $ python3 main.py --pgnfile=pgn.txt --desired_fps=5
 
 Which creates individual frames in the frames/ directory that look like this:
 
-![Image of Frame]
-(https://github.com/aalokpatwa/chessvis/frames/frame10.png)
+![Image of Frame](frames/frame10.png)
 
 It also concatenates these frames into a video for a cool way to see the game progress.
 
 Finally, it creates a plot representing the number of squares that each side controls over the course of the game.
 
-![Image of Plot]
-(https://github.com/aalokpatwa/chessvis/plots/lineplot.png)
+![Image of Plot](plots/lineplot.png)
 
 
 
