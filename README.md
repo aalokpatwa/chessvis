@@ -46,7 +46,7 @@ Take a look at the sample pgn file included in the repo, pgn.txt.
 
 I run
 ```unix
-$ python3 main.py --pgnfile=pgn.txt --desired_fps=5
+$ python3 main.py game_7-4/ --pgnfile=pgn.pgn --desired_fps=5
 ```
 
 Which creates individual frames in the frames/ directory that look like this, where the color of a square represents the degree to which a certain side controls it:
