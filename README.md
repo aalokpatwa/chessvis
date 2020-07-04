@@ -19,3 +19,8 @@ python-chess
 ### Usage
 main.py is the script that creates heatmaps to visualize control at every move of the game, concatenate those frames into a video, and produce plots of control over the course of the game.
 
+```unix
+python3 main.py "pgnfile" "frame_outpath" "plot_outpath" "video_outpath" "desired_fps"
+```
+
+
