@@ -1,3 +1,10 @@
+"""
+Chessvis Engine
+
+Aalok Patwa
+github.com/aalokpatwa
+"""
+
 import numpy as np
 import pandas as pd
 import seaborn as sns
