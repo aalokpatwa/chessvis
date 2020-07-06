@@ -1,3 +1,10 @@
+"""
+Chessvis Main
+
+Aalok Patwa
+github.com/aalokpatwa
+"""
+
 import chessvis
 import chess.pgn
 import argparse
@@ -7,7 +14,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-parser = argparse.ArgumentParser(description='Process some integers.')
+parser = argparse.ArgumentParser()
 parser.add_argument("game_dir", help="the directory with the game you want to analyze")
 parser.add_argument('--pgn_file', nargs="?", default="pgn.pgn",help='the path to the file with pgn information')
 parser.add_argument("--fps", nargs="?", default=5, help="the fps for the video")
